@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/1584795214_4249394145_223132457.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_905974688_3319052328.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_170640456_590138297.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_3564420369_3117686420.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_713784653_1828722587.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_1839128356_825433190.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_3890911889_4169346197.mp4'
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/AnamorphoseSzene/4072820271_2408024828_3094060204.mp4'

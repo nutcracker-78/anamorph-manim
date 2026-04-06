@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Daniel/Documents/Gits/latex-uebungen/Anamorphose/aufsatz/Anamorphose_Projekt/media/videos/raster/480p15/partial_movie_files/Phase3/1584795214_3329346534_2548133098.mp4'

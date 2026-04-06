@@ -1,0 +1,32 @@
+{
+    // === Wir ÜBERSCHREIBEN das Standard-Tool "latexmk" ===
+    "latex.tools": [
+        {
+            // Wir nennen es exakt "latexmk", um das Original zu ersetzen
+            "name": "latexmk",
+
+            // Befehl: Der funktionierende Perl-Interpreter
+            "command": "C:\\Users\\eyo78\\Portable\\strawberry-perl\\perl\\bin\\perl.exe",
+
+            "args": [
+                // Argument 1: Das Skript, das wir gefunden haben
+                "C:\\Users\\eyo78\\Portable\\miktex-portable\\texmfs\\install\\scripts\\latexmk\\latexmk.pl",
+
+                // Standard-Argumente
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        }
+    ],
+
+    // --- Wir setzen das Standard-Rezept auf das jetzt reparierte "latexmk" ---
+    "latex.recipe.default": "latexmk",
+
+    // --- Ihre anderen Einstellungen ---
+    "editor.minimap.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "git.autofetch": true
+}

@@ -1,0 +1,94 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=3cm]{geometry}
+\usepackage{anyfontsize}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage[backend=biber,style=numeric,defernumbers=true, sorting=none]{biblatex} 
+\usepackage{amsmath}
+%\usepackage{svg}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{csquotes}
+\usepackage{lmodern}
+
+\setcounter{biburllcpenalty}{7000}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Definieren der Farben für den Code
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Stil für Python-Code festlegen
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=Python
+}
+\lstset{style=mystyle}
+
+
+% Quellen
+\addbibresource{Quellen.bib}
+
+\title{ Lineare Anamorphose }
+\author{Daniel Stumpp}
+\date{ \today } %TODO akutell halten
+
+\begin{document}
+
+%Titelseite
+\input{Deckblatt}
+\newpage
+\tableofcontents % <--- Hier wird das Verzeichnis erstellt
+\newpage
+
+%Einleitung/historische Einordnung
+\input{Einleitung}
+ \newpage
+
+%Mathematische Ideen (TODO Titel)
+\input{math}
+
+\newpage
+
+\input{kontext}
+
+\newpage
+
+\input{manim}
+
+\newpage
+
+\input{fazit}
+
+\newpage
+
+\printbibheading[title={Quellenverzeichnis}] 
+
+\printbibliography[keyword=haupt, heading=subbibliography, title={Hauptquellen}]
+%\printbibliography[keyword=neben, heading=subbibliography, title={Nebenquellen}]
+%\nocite{AdaPortrait, GeneralPlan}
+%\printbibliography[keyword=bild, heading=subbibliography, title={Bildquellen}]
+
+
+
+\end{document}

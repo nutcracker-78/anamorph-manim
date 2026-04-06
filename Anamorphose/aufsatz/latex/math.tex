@@ -1,0 +1,46 @@
+\section{Mathematische Ideen}
+
+Andersen betont, dass Maler über die reine Beobachtung hinausgingen und stattdessen angespornt waren, jene mathematische Regeln zu formulieren, nach denen sich der Raum organisierte. \footnote{Vgl.: \cite[S. 3]{Andersen2007}}
+Um 1435 definierte Leon Battista Alberti in seinem Werk \textit{De pictura} das perspektivische Bild erstmals mathematisch als den direkten Schnitt der Sehpyramide mit der Bildebene. Der Eindruck des Gemäldes sollte dieselbe Tiefe suggerieren, als betrachte man eine Szene durch ein geöffnetes Fenster. \footnote{Vgl.: \cite[S. 1]{Andersen2007}} Während Alberti die \textit{Konvergenzregel} - das ist jene Regel, nach der sich alle Tiefenlinien (Orthogonalen) in einem gemeinsamen Fluchtpunkt treffen, dem \textit{Hauptfluchtpunkt} - stillschweigend voraussetzte, lieferte Guidobaldo del Monte im Jahr 1600 den mathematischen Beweis. Rückblickend lässt sich sagen, dass diese Entwicklung die korrekte räumliche Darstellung geometrischer Körper, wie Polyeder oder architektonischer Elemente, erst ermöglichte. \footnote{Vgl.: \cite[S. 4-9]{Andersen2007}}
+
+Sei $\pi$ die Bildebene und $O$ ein Augpunkt. Die Abbildungsvorschrift ist, dass jeder Punkt $A$ hinter der Bildebene $\pi$ auf einen Punkt $A_i$ auf der Bildebene abgebildet wird, und zwar als Schnittpunkt der Geraden $OA$ mit $\pi$. \footnote{Vgl.: \cite[S. 1]{Andersen2007}}
+
+Um ein dreidimensionales Objekt zu beschreiben, ist zu beachten, dass Albertis Konstruktionsmethode nur teilweise auf einer Grundriss- und Aufriss-Methode basierte und die älteste bekannte Beschreibung dieses Verfahrens von Piero della Francesca stammt. \footnote{Vgl.: \cite[S. 14]{Andersen2007}}
+
+Sei $O$ der Augpunkt des Betrachters und $B$ ein beliebiger Punkt des Objekts im Raum. Sei außerdem $\pi$ die vertikale Bildebene (Leinwand) und $b$ der Durchstoßpunkt des Sehstrahls $OB$ durch die Bildebene $\pi$.
+
+Um diesen 3D-Schnittpunkt $b$ auf einem flachen Blatt Papier identifizieren zu können, projizierte Piero die gesamte Konfiguration auf zwei orthogonale Hilfsebenen: Sei $\gamma$ (Grundriss) die horizontale Bodenebene und $\epsilon$ (Aufriss) die vertikale Ebene, die senkrecht auf dem Grundriss $\gamma$ und senkrecht auf der Bildebene $\pi$ steht. 
+
+Die resultierenden Schnittlinien $GR$, $GT$ und $GH$ der Ebenen bilden das Koordinatensystem.
+
+Anstatt den Schnittpunkt $b$ im dreidimensionalen Raum zu berechnen, projizierte Piero den Punkt $O$, den Punkt $B$ und den gesuchten Bildpunkt $b$ jeweils orthogonal auf den Grundriss und den Aufriss. 
+
+Im Grundriss werden der Augpunkt und der Objektpunkt auf $O_p$ und $B_p$ abgebildet, der Sehstrahl $OB$ zu $O_pB_p$ und $b$ zu $b_p$. Da die Leinwand $\pi$ von oben nur als die Gerade $GR$ erscheint, ist die Projektion des Bildpunktes $b_p$ exakt der Schnittpunkt zwischen den Geraden $O_pB_p$ und $GR$. 
+
+Im Aufriss werden der Augpunkt und der Objektpunkt als $O_e$ und $B_e$ abgebildet. Die Bildebene $\pi$ erscheint in der vertikalen Ansicht nur als die Linie $GT$, womit die Projektion des Bildpunktes $b_e$ exakt der Schnittpunkt zwischen $O_eB_e$ und $GT$ ist.
+
+Im nächsten Schritt drehte er die vertikale Aufrissebene $\epsilon$ um die Achse $GH$ nach unten, bis sie flach in derselben Ebene wie der Grundriss $\gamma$ lag. Sobald $B_p$, $B_e$, $O_p$ und $O_e$ auf dem Papier bekannt sind, können daraus die Punkte $b_p$ und $b_e$ durch einfaches Ziehen von Linien konstruiert werden. 
+
+Während die horizontale Position des Leinwandpunktes $b$ sich aus der Distanz auf der Gerade $GR$ ergibt, berechnet sich die vertikale Höhe des Punktes aus der Distanz $Gb_e$ auf der vertikalen Linie $GT$. Indem man eine Senkrechte durch $b_p$ (nach oben) und eine Senkrechte durch $b_e$ (zur Seite) zieht, erhält man am Schnittpunkt dieser beiden Linien den finalen Punkt $b$. \footnote{Vgl.: \cite[S. 60-63]{Andersen2007}}
+
+Piero verstand die Mathematik der Zentralprojektion so tiefgreifend, dass er die geometrischen Parameter bewusst veränderte: Stellen wir uns vor, die Leinwand liegt flach auf einem Tisch. Erinnern wir uns an Albertis Perspektiv-Modell, so wird deutlich, dass ausgehend von einem Augpunkt O eine Sehpyramide mit der Bildebene geschnitten wird. Indem wir den Augpunkt extrem flach nahe zur Tischkante führen, unterliegt die resultierende Bildebene einer extremen Verzerrung. Dies hat zur Folge, dass seine Zeichnungen nur dann unverzerrt erscheinen, wenn sie exakt aus dem von Piero kalkulierten Augpunkt betrachtet werden - die erste perspektivische Anamorphose ist entstanden. \footnote{Vgl.: \cite[S. 74-75]{Andersen2007}}
+
+Um 1623 veröffentlichte der Ingenieur und Rechenmeister Andreas Albrecht (1586--1628) mit seinem Werk \textit{Zwey Bücher} das erste deutschsprachige Werk, welches die Konstruktion von perspektivischen Anamorphosen -- von ihm \textit{Ongestalt} genannt -- behandelte. Im Gegensatz zu Pieros Grundriss-Aufriss-Methode verwendete er einen arithmetischen Ansatz, für den er aufwendig ein umfangreiches Tabellenwerk ausarbeitete.\footnote{Vgl.: \cite[S. 605-606]{Andersen2007}}
+
+Sei $\pi$ eine vertikale Bildebene. Wir definieren den Augpunkt $O$ und nennen seine orthogonale Projektion auf die Grundebene $O'$. Die Höhe des Augpunktes über der Grundebene sei $h$ (Strecke $OO'$). Der orthogonale Abstand des Augpunktes zur Bildebene $\pi$ sei $d$. Sei nun $C$ ein beliebiger, zu projizierender Raumpunkt und $A$ seine senkrechte Projektion auf die Grundebene. Die Position des Punktes $C$ wird wie folgt definiert: $a$ als der räumliche Tiefenabstand von $A$ zur Bildebene $\pi$, $b$ als der laterale Abstand von $A$ zur zentralen Vertikalebene (die durch $O$ und $O'$ verläuft) und $c$ als die Höhe des Punktes $C$ über der Grundebene (Strecke $AC$). 
+
+Für die Bestimmung der projizierten Koordinaten ($x$, $y$ und $z$) in der Bildebene $\pi$ nutzte Albrecht die geometrischen Gesetzmäßigkeiten des Strahlensatzes, indem er die Sichtstrahlen vom Augpunkt $O$ zu den Objektpunkten ($A$ und $C$) im Raum betrachtete. Durch den Schnitt dieser Sichtstrahlen mit der Bildebene entstehen ähnliche Dreiecke. Folglich entspricht das Verhältnis der projizierten Strecken auf der Bildebene zu den Originalstrecken im Raum dem Verhältnis der Sehdistanz $d$ zur Gesamttiefe ($a+d$).
+
+Durch algebraische Äquivalenzumformungen leitete Albrecht daraus die finalen anamorphotischen Abbildungsgleichungen ab, um seine Tabellen zu berechnen: 
+$$x = \frac{d \cdot b}{a+d}, \quad y = \frac{a \cdot h}{a+d} \quad \text{und} \quad z = \frac{d \cdot c}{a+d}$$
+
+Während Albrechts Tabellenwerk für den gewöhnlichen Maler kaum zu dechiffrieren war, beabsichtigte Jean-François Niceron mit seiner Arbeit eine detaillierte Anleitung zur Konstruktion perspektivischer Anamorphosen, die selbst für Laien zugänglich sein sollte. \footnote{Vgl.: \cite[S. 452]{Andersen2007}} 
+
+Das grundlegende Prinzip für die Konstruktion eines anamorphotischen Rasters bildet Nicerons Konstruktion aus \textit{La perspective curieuse}. 
+Sei $\epsilon$ eine vertikale Ebene im Raum mit einem Rasterfeld und einer Diagonale $LN$. Sei außerdem $O$ ein fest definiertes Projektionszentrum im dreidimensionalen Raum (Augpunkt des Betrachters). 
+
+Sei der Hauptpunkt $P$ definiert als die orthogonale Projektion des Augpunktes $O$ auf die Projektionsebene $\pi$. Der Distanzpunkt $D$ liegt ebenfalls auf $\pi$, wobei sein Abstand zu $P$ der Sehdistanz entspricht, sodass für die Streckenlängen gilt: $|DP| = |OP|$. Dies impliziert, dass $P$ der Hauptfluchtpunkt ist. Da die Tiefenlinien (Horizontalen) des unverzerrten Rasters in $\epsilon$ orthogonal zur Bildebene $\pi$ stehen, werden sie auf Geraden projiziert, die sich im Hauptfluchtpunkt $P$ schneiden.
+
+Die Querlinien (Vertikalen) des Rasters in $\epsilon$ verlaufen parallel zur Bildebene $\pi$. Ihre anamorphotische Abbildung wird durch die Diagonale $LN$ determiniert. Diese Diagonale verläuft im Originalraster in einem $45^\circ$-Winkel zu den Tiefenlinien. Ihr Startpunkt $L$ liegt auf der Schnittgeraden von $\epsilon$ und $\pi$. Da der Distanzpunkt $D$ die korrekte Sehdistanz repräsentiert, fungiert er als Fluchtpunkt für alle $45^\circ$-Diagonalen. Folglich ist die Projektion der Diagonale auf $\pi$ exakt die Strecke $LD$. Die gesuchten Positionen der vertikalen Querlinien im verzerrten Raster ergeben sich aus den Schnittpunkten der projizierten Diagonale $LD$ mit den im Hauptfluchtpunkt $P$ zusammenlaufenden Tiefenlinien.
+
+Sein Ordensbruder Emmanuel Maignan (1601-1676) nutzte dieses Wissen, um monumentale anamorphotische Wandbilder zu erschaffen. Ein herausragendes Beispiel hierfür ist das Fresko im Kloster \textit{Trinità dei Monti} in Rom: Betrachtet man es aus dem exakt definierten Augpunkt, offenbart sich das Porträt des Ordensgründers Franz von Paola. Aus anderen Blickwinkeln betrachtet, zeigt die Wandbemalung hingegen eine Darstellung seiner gefährlichen Überquerung der \textit{Straße von Messina}. \footnote{Vgl.: \cite[S. 455-457]{Andersen2007}}
